@@ -34,6 +34,10 @@ const exchangedValue = originalValue * exchangeRate
 
 // Log it to the console
 console.log (exchangedValue) // 11.4
+console.log (exchangedValue) // 11.399999999999999
+console.log (Math.round(exchangedValue)) // 11
+console.log (exchangedValue.toFixed(2)) // 11.40 - the typeof is a string
+console.log (exchangedValue * 100) / 100 // 11.4 - the typeof is a number
 
 //Number operators
 
