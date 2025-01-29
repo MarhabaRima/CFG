@@ -40,3 +40,4 @@ function getSum2(num1, num2) {
 const functionOutput2 = getSum2(23,531) // 23 and 531 are arguments
 console.log(functionOutput2) // 554
 //This is the same as the function above, but shorter and cleaner.
+
