@@ -32,7 +32,40 @@ for (let fruit = 0; fruit < fruits.length; fruit++) {
     if (fruits1[fruit] === "banana") {
         console.log("I found a banana!");
     }
-
 } 
+// While Loop steps:
+//initialization - let i = 0; - it is the starting point of the loop.
+//while (condition) { } - executes the code block as long as the condition is true.
+//code block to be executed - console.log("INDEX", i); - it will print the value of i.
+//increment - i++ - it will increment the value of i by 1.
+// } - end of the loop.
 
-// While Loop example:
+console.log("______________"); //output: ______________
+console.log(""); //output:
+
+//Example of a While Loop:
+
+let count = 0;
+while (count < 6) { //it will run until the value of count is less than 5 - no infinite loop
+    console.log("COUNTER", count); //output: 0, 1, 2, 3, 4, 5
+    count++; //increment the value of count by 1
+}
+
+console.log("______________"); //output: ______________
+console.log(""); //output:
+
+let digit = 0;
+while (digit < 23) { //it will run until the value of digit is less than 5 - no infinite loop
+    console.log("COUNTER", digit); //output: 0, 1, 2, 3, 4, 5
+    digit=digit+2; //increment the value of digit by 2
+}
+
+console.log("______________"); //output: ______________
+console.log(""); //output:
+
+//countdown
+let countdown = 10;
+while (countdown > 0) {
+    console.log("COUNTDOWN", countdown);
+    countdown--;
+}
