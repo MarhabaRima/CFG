@@ -1,0 +1,17 @@
+body {
+    background-color: rgba(240, 238, 180, 0.881);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    font-size: 2rem;
+}
+h1 {
+    font-size: 100px;
+}
+ 
+.welcome {
+    color: red
+}
+ 
+#question {
+    font-weight: 800;
+}
