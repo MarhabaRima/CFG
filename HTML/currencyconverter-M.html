@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="hero">
+        <h1>Convert With Confidence.</h1>
+        <p>Fast, accurate, and beautiful conversions.</p>
+    </header>
+
+    <!-- Currency Converter Section -->
+    <main>
+        <div class="converter-container">
+            <h2>Currency Converter</h2>
+            <p class="instructions">Select currencies, enter an amount, and convert.</p>
+
+            <!-- Input Section -->
+            <div class="input-box">
+                <label for="currency-from">From:</label>
+                <select id="currency-from">
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <option value="INR">INR - Indian Rupee</option>
+                    <option value="AED">AED - UAE Dirham</option>
+                    <option value="SGD">SGD - Singapore Dollar</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="AUD">AUD - Australian Dollar</option>
+                    <option value="CAD">CAD - Canadian Dollar</option>
+                </select>
+
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount" />
+
+                <label for="currency-to">To:</label>
+                <select id="currency-to">
+                    <!-- Same 20 currencies as above -->
+                    <option value="USD">USD - US Dollar</option>
+                    <option value="EUR">EUR - Euro</option>
+                    <option value="GBP">GBP - British Pound</option>
+                    <option value="INR">INR - Indian Rupee</option>
+                    <option value="AED">AED - UAE Dirham</option>
+                    <option value="SGD">SGD - Singapore Dollar</option>
+                    <option value="JPY">JPY - Japanese Yen</option>
+                    <option value="AUD">AUD - Australian Dollar</option>
+                    <option value="CAD">CAD - Canadian Dollar</option>
+                </select>
+
+                <button id="convert-button">Convert Now</button>
+            </div>
+
+            <!-- Result Section -->
+            <div class="result-box">
+                <h2>Conversion Result</h2>
+                <p id="conversion-result">Awaiting your input...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Crafted with ❤️ for accurate results by a Millenial.</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="currencyconverter-m.js"></script>
+</body>
+</html>
