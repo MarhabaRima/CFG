@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxurious To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Elegant Entry Screen -->
+    <div id="entry-screen">
+        <div class="entry-box">
+            <h1>Welcome</h1>
+            <p>Your tasks await in style.</p>
+            <button id="enter-btn">Enter →</button>
+        </div>
+    </div>
+
+    <!-- Stylish To-Do Container -->
+    <div id="todo-container" class="hidden">
+        <button id="toggle-btn">Collapse</button>
+        <h1>✨ My Elegant To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-task-btn">+</button>
+        </div>
+        <div class="list-container">
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
