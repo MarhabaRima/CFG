@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;600&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Elegant Entry Screen */
+#entry-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: opacity 1s ease-in-out;
+}
+
+.entry-box {
+    background: linear-gradient(145deg, #1b1b1b, #2b2b2b);
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    transition: 0.4s ease-in-out;
+}
+
+.entry-box:hover {
+    box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.entry-box h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #f3f3f3;
+    font-family: 'Playfair Display', serif;
+}
+
+.entry-box p {
+    font-size: 18px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+#enter-btn {
+    background-color: #444;
+    color: #f3f3f3;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+#enter-btn:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+/* Stylish To-Do Container */
+.hidden {
+    display: none;
+}
+
+#todo-container {
+    background: rgba(20, 20, 20, 0.9);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+    width: 400px;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+/* Collapse Button */
+#toggle-btn {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+#toggle-btn:hover {
+    background-color: #444;
+    transform: scale(1.1);
+}
+
+/* Input Section */
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    outline: none;
+    background: #1b1b1b;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+/* Task List */
+.list-container {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 2px solid #444;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(30, 30, 30, 0.8);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+    background: rgba(50, 50, 50, 0.6);
+    color: white;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+li:hover {
+    background: rgba(80, 80, 80, 0.8);
+    transform: scale(1.05);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
