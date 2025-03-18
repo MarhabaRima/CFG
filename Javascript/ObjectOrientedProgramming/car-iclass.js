@@ -14,7 +14,7 @@ class Car {
 class ElectricCar extends Car {
     constructor(make, model, year, batteryCapacity) {
         super(make, model, year);
-        this.batteryCapacity = batteryCapacity; // Corrected property name
+        this.batteryCapacity = batteryCapacity; // batteryCapacity in kWh
     }
     // Method to estimate the range of the car
     estimateRange() {
