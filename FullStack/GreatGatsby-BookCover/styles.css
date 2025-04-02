@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #f4f0e8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+  }
+  
+  .book-cover {
+    width: 320px;
+    height: 500px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .top-section,
+  .bottom-section {
+    background-color: #f37020;
+    color: black;
+  }
+  
+  .middle-section {
+    background-color: white;
+    color: black;
+  }
+  
+  .genre,
+  .publisher {
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .author {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .penguin-logo {
+    height: 50px;
+    margin: 10px 0;
+  }
