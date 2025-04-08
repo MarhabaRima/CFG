@@ -6,15 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className = "Heading"> Welcome to my First React Project </h1>
-        <h2 className = "Short-Description">
-          1. React is a JavaScript library for building user interfaces.
-          <br/>
-          2. React was developed by Facebook and is now maintained by Facebook and a community of individual developers and companies.
-          <br/>
-          3. React uses a virtual DOM to improve performance and efficiency.
-        </h2>
-        <Button/>
+        <h1> This is a React app! Dedicated to the Dune Book series</h1>
+        <p> Books are fun to read can be very helpful for learning new stuff </p>
+        <p> Rules of book reading are fairly self-explanatory </p>
+        <Button firstWord='Hello' secondWord='World'/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

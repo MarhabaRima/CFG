@@ -1,10 +1,24 @@
-import './Button.css';
+import './Button.css'
 
-function Button() {
+function Button({firstWord, secondWord}) {
+    const messages = [
+        "The spice must flow",
+        "Fear is the mind killer",
+        "He who controls the spice, controls the universe",
+        "For he is the Kwisatz Haderach",
+    ];
+
+    function handleClick() {
+        const randomHouseChant = messages[Math.floor(Math.random() * messages.length)];
+        console.log(randomHouseChant);
+    };
+
     return (
         <>
-            <h3> This is a Button 👇 </h3>
-            <button className = "btn-ClickMe"> Click Me! </button>
+            <button className="duneButton" 
+            onClick={handleClick}>
+                {firstWord} {secondWord}
+                </button>
         </>
     )
 }

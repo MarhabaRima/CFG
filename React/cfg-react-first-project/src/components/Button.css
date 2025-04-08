@@ -1,4 +1,4 @@
-.btn-ClickMe {
+.duneButton {
     font-weight: bolder;
     background-color: rgb(77, 175, 255); 
     border: 3px solid #c7e2f1; 
@@ -10,13 +10,13 @@
     box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 10px;
 }
 
-.btn-ClickMe:hover {
+.duneButton:hover {
     background-color: #084162;
     color: white;
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn-ClickMe:active {
+.duneButton:active {
     transform: scale(0.98);
 }
