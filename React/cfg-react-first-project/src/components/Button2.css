@@ -1,0 +1,22 @@
+.Button2 {
+    font-weight: bolder;
+    background-color: rgb(77, 175, 255); 
+    border: 3px solid #c7e2f1; 
+    font-size: large; 
+    padding: 12px 25px; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3 ease, box-shadow 0.3s ease;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 4px 10px;
+}
+
+.Button2:hover {
+    background-color: #084162;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Button2:active {
+    transform: scale(0.98);
+}
